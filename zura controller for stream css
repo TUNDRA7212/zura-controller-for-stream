@@ -1,0 +1,42 @@
+/* TEKKROH x ZURA ESPORTS */
+/* Blue PS5 Controller Theme */
+
+body {
+  background: transparent !important;
+}
+
+.controller {
+  filter: drop-shadow(0 0 12px #007bff);
+}
+
+/* Glowing button presses */
+.controller.ds4 .button.pressed,
+.controller.ds5 .button.pressed,
+.controller.ds4 .bumper.pressed,
+.controller.ds5 .bumper.pressed,
+.controller.ds4 .trigger.pressed,
+.controller.ds5 .trigger.pressed,
+.controller.ds4 .arrows .pressed,
+.controller.ds5 .arrows .pressed {
+  filter: brightness(1.7)
+    drop-shadow(0 0 10px #00bfff);
+}
+
+/* Blue analog sticks */
+.controller.ds4 .stick,
+.controller.ds5 .stick {
+  filter: drop-shadow(0 0 6px #009dff);
+}
+
+/* Stick clicks */
+.controller.ds4 .stick.pressed,
+.controller.ds5 .stick.pressed {
+  filter: brightness(1.5)
+    drop-shadow(0 0 12px #00cfff);
+}
+
+/* Touchpad glow */
+.controller.ds4 .touchpad,
+.controller.ds5 .touchpad {
+  filter: drop-shadow(0 0 6px #00bfff);
+}
